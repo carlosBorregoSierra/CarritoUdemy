@@ -10,7 +10,7 @@ const styles = {
 class Title extends Component{
     render(){
         return(
-            <h1 style={styles.title}>My Shop</h1>
+            <h1 style={styles.title}>My tiendita</h1>
         );
     }
 }
