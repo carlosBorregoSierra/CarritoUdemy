@@ -14,7 +14,7 @@ const styles = {
 class BubbleAlert extends Component{
 
     getNumber(n){
-        if(!n){return ''}
+        if(!n){return '0'}
         return n>9 ? '9+' : n;
     }
 
